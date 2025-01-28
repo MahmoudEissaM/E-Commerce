@@ -1,19 +1,24 @@
 {
-  "name": "e-commerce",
+  "name": "ecommerce-website-v6",
   "version": "1.0.0",
-  "description": "E-commerce backend using json-server",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch user.json --port 5000"
+    "start": "json-server --watch user.json --port $PORT",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "e-commerce",
-    "json-server",
-    "api"
-  ],
-  "author": "Mahmoud Eissa",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahmoudEissaM/E-Commerce.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MahmoudEissaM/E-Commerce/issues"
+  },
+  "homepage": "https://github.com/MahmoudEissaM/E-Commerce#readme",
+  "description": "",
   "dependencies": {
     "json-server": "^1.0.0-beta.3"
   }
