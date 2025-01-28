@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Products - Seller</title>
+    <link rel="stylesheet" href="../css/sellers.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <img src="../img/logo.png" alt="TechTronix Logo">
+            </a>
+            <nav class="nav">
+                <a href="../index.html" class="active">Home</a>
+                <a href="../html/">Shop</a>
+                <a href="../about.html">About Us</a>
+                <a href="../contact.html">Contact</a>
+                <p>Seller</p>
+            </nav>
+
+            <a href="orders.html"><button id="viewOrdersBtn">View Orders</button>
+                <div id="ordersList"></div>
+            </a>
+
+        </div>
+        </div>
+    </header>
+    <!-- --------------------------------------------------------------------------------- -->
+
+
+
+    <div class="container">
+        <h2>Manage Products</h2>
+
+        <form id="addProductForm">
+
+            <input type="text" id="productName" placeholder="Enter product name" required>
+            <input type="text" id="category" placeholder="Enter product category" required>
+            <input type="number" id="productPrice" placeholder="Enter product price" required>
+            <input type="file" id="productImg" accept="image/*" required>
+            <button type="submit">Add Product</button>
+        </form>
+
+
+
+        <h3>Existing Products</h3>
+        <div id="productsList"></div>
+
+        <div id="editProductModal" style="display:none;">
+            <label for="editProductName">Product Name:</label>
+            <input type="text" id="editProductName">
+            <label for="editProductPrice">Product Price:</label>
+            <input type="number" id="editProductPrice">
+            <button id="saveEditBtn">Save Changes</button>
+            <button onclick="closeEditModal()">Close</button>
+        </div>
+
+        <div id="feedback" style="color:green; margin-top:20px;"></div>
+    </div>
+
+    <script src="../js/sellers.js"></script>
+</body>
+
+</html>

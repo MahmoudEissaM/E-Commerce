@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2>Admin Dashboard</h2>
+        <ul>
+            <li><a href="#" id="userManagementLink">User Management</a></li>
+            <li><a href="#" id="productManagementLink">Product Management</a></li>
+            <a href="adminOrders.html"><button id="viewOrdersBtn">View Orders</button>
+                <div id="ordersList"></div>
+            </a>
+            <a href="../index.html"><button id="Home">Home</button>
+            </a>
+
+        </ul>
+    </div>
+    <div class="main-content">
+
+        <div id="admin-dashboard">
+            <div id="pending-products-icon">
+                <button onclick="togglePendingProducts()">🛒</button>
+                <span>Pending Products</span>
+            </div>
+
+            <div id="pending-products-section" style="display: none;">
+                <h3>Pending Products</h3>
+                <div id="pending-products-container"></div>
+            </div>
+
+
+            <div id="orders-section" style="display: none;">
+                <h3>Orders</h3>
+                <div id="orders-container"></div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="user-management-section" id="user-management-section">
+            <h2>User Management</h2>
+            <div class="admin-container">
+                <div class="user-table">
+                    <table id="user-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Username</th>
+                                <th>Role</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+
+
+
+
+                <div class="add-user-form">
+                    <h3>Add New User</h3>
+                    <input type="text" id="firstName" placeholder="First Name">
+                    <input type="text" id="lastName" placeholder="Last Name">
+                    <input type="email" id="email" placeholder="Email">
+                    <input type="text" id="username" placeholder="Username">
+                    <input type="password" id="password" placeholder="Password">
+                    <select id="role">
+                        <option value="admin">Admin</option>
+                        <option value="seller">Seller</option>
+                        <option value="customer">Customer</option>
+                    </select>
+                    <button id="addUser">Add User</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----------------------------------------------------------------------- -->
+
+
+        <div class="product-management-section" id="product-management-section" style="display:none;">
+            <h2>Product Management</h2>
+
+            <form id="addProductForm">
+                <input type="text" id="productName" placeholder="Product Name" required>
+                <input type="number" id="productPrice" placeholder="Product Price" required>
+                <input type="text" id="productSeller" placeholder="Seller Name" required>
+                <input type="file" id="productImg" required>
+                <button type="submit">Add Product</button>
+            </form>
+
+
+
+
+            <div class="product-container" id="product-container">
+
+            </div>
+
+
+        </div>
+        <!-- ----------------------------------------------------------------------- -->
+
+
+
+
+    </div>
+
+    <script src="../js/admin.js"></script>
+</body>
+
+</html>

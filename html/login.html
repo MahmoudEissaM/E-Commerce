@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+
+
+  <div class="top-bar">
+    <p>30-day return or refund guarantee.</p>
+    <div class="top-bar-options">
+      <a href="login.html" id="loginBtn" class="login-btn">Login</a>
+      <a href="signup.html" id="signupBtn" class="signup-btn">Sign Up</a>
+      <a href="login.html" id="logoutBtn" class="logout-btn" style="display: none;">Logout</a>
+    </div>
+  </div>
+
+  <header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="../img/logo.png" alt="TechTronix Logo">
+      </a>
+      <nav class="nav">
+        <a href="../index.html" class="active">Home</a>
+        <a href="../shop.html">Shop</a>
+        <a href="../about.html">About Us</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- --------------------------------------------------------------------------------- -->
+
+
+  <main>
+    <h1>Login</h1>
+    <form id="login-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Login</button>
+      <p>Don't have an account? <a href="signup.html">Sign Up Now</a> </p>
+    </form>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="../js/login.js"></script>
+</body>
+
+</html>

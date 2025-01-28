@@ -1,0 +1,332 @@
+{
+  "users": [
+    {
+      "id": "bfd2",
+      "firstName": "new",
+      "lastName": "seller",
+      "email": "mahmoud.handsome@yahoo.com",
+      "username": "newseller",
+      "password": "1234",
+      "role": "seller"
+    },
+    {
+      "id": "53cc",
+      "firstName": "ITI",
+      "lastName": "ZAG",
+      "email": "ITi@ZAG.COM",
+      "username": "ITI ZAG",
+      "password": "1234",
+      "role": "admin"
+    },
+    {
+      "id": "4b63",
+      "firstName": "seller2",
+      "lastName": "ZAG",
+      "email": "ITi@ZAG.COM",
+      "username": "seller2",
+      "password": "1234",
+      "role": "seller"
+    },
+    {
+      "id": "b4b0",
+      "firstName": "customer2",
+      "lastName": "ZAG",
+      "email": "ITi@ZAG.COM",
+      "username": "customer2",
+      "password": "1234",
+      "role": "customer"
+    },
+    {
+      "id": "50ca",
+      "firstName": "mahmoud ahmed",
+      "lastName": "Saeed Eissa",
+      "email": "mahmoud.handsome",
+      "username": "newseller",
+      "password": "1234",
+      "role": "admin"
+    },
+    {
+      "id": "15b0",
+      "firstName": "mahmoud ",
+      "lastName": "ahmed",
+      "birthDate": "2000-12-25",
+      "email": "mahmoud@iti.com",
+      "username": "sellernew1",
+      "password": "1234",
+      "role": "seller"
+    },
+    {
+      "id": "71d6",
+      "firstName": "mahmoud ahmed",
+      "lastName": "Saeed Eissa",
+      "email": "mahmoud.handsome",
+      "username": "22222222",
+      "password": "1234",
+      "role": "seller"
+    }
+  ],
+  "products": [
+    {
+      "id": "0",
+      "sellerId": 1,
+      "name": "SAMSUNG 55 Inch UHD 4K Smart TV With Receiver",
+      "price": 350,
+      "category": "electronics",
+      "img": "img/products/0.png",
+      "status": "approved"
+    },
+    {
+      "id": "1",
+      "sellerId": 2,
+      "name": "Redmi 13C Dual SIM with 6GB RAM",
+      "price": 280,
+      "category": "Mobiles",
+      "img": "img/products/1.png",
+      "status": "approved"
+    },
+    {
+      "id": "2",
+      "sellerId": 3,
+      "name": "Dell XPS 13 Intel Core i7, 8th 16GB 512GB SSD",
+      "price": 1199,
+      "category": "Laptops",
+      "img": "img/products/26.png",
+      "status": "approved"
+    },
+    {
+      "id": "3",
+      "sellerId": 3,
+      "name": "Huawei MateBook X Pro Intel Core i7, 8th 8GB 512GB SSD",
+      "price": 400,
+      "category": "Laptops",
+      "img": "img/products/25.png",
+      "status": "approved"
+    },
+    {
+      "id": "2",
+      "sellerId": 3,
+      "name": "Apple Macbook Pro 2018 16GB 1TB SSD",
+      "price": 400,
+      "category": "Laptops",
+      "img": "img/products/28.png",
+      "status": "approved"
+    },
+    {
+      "id": "1",
+      "sellerId": 3,
+      "name": "Dell Laptop Latitude 5530 Core i7-1255U 8GB SSD",
+      "price": 400,
+      "category": "Laptops",
+      "img": "img/products/2.png",
+      "status": "approved"
+    },
+    {
+      "id": "3",
+      "sellerId": 4,
+      "name": "Canon EOS RP Mirrorless Camera",
+      "price": 530,
+      "category": "electronics",
+      "img": "img/products/3.png",
+      "status": "approved"
+    },
+    {
+      "id": "4",
+      "sellerId": 5,
+      "name": "OPPO A18 128GB 4GB Glowing Black",
+      "price": 250,
+      "category": "Mobiles",
+      "img": "img/products/4.png",
+      "status": "approved"
+    },
+    {
+      "id": "5",
+      "sellerId": 6,
+      "name": "Samsung 27-Inch G55C Odyssey QHD 4k",
+      "price": 280,
+      "category": "electronics",
+      "img": "img/products/5.png",
+      "status": "approved"
+    },
+    {
+      "id": "7",
+      "sellerId": 8,
+      "name": "HP Victus Gaming Laptop 8RAM SSD",
+      "price": 370,
+      "category": "Laptops",
+      "img": "img/products/7.png",
+      "status": "approved"
+    },
+    {
+      "id": "8",
+      "sellerId": 9,
+      "name": "Xiaomi Redmi 13C Dual SIM 8GB",
+      "price": 320,
+      "category": "Mobiles",
+      "img": "img/products/8.png",
+      "status": "approved"
+    },
+    {
+      "id": "9",
+      "sellerId": 10,
+      "name": "Handheld Barcode Scanner 1D/2D/QR Code",
+      "price": 80,
+      "category": "electronics",
+      "img": "img/products/9.png",
+      "status": "approved"
+    },
+    {
+      "id": "10",
+      "sellerId": 11,
+      "name": "Large Venue building mapping Projector",
+      "price": 300,
+      "category": "electronics",
+      "img": "img/products/10.png",
+      "status": "approved"
+    },
+    {
+      "id": "11",
+      "sellerId": 12,
+      "name": "Infinix Hot 40i (RAM: 4+4GB, 128GB)",
+      "price": 260,
+      "category": "Mobiles",
+      "img": "img/products/11.png",
+      "status": "approved"
+    },
+    {
+      "id": "13",
+      "sellerId": 14,
+      "name": "Fuzzy Logic Rice Cooker DIGITAL-JAR 1.8L 940W – HD4515/67",
+      "price": 490,
+      "category": "electronics",
+      "img": "img/products/13.png",
+      "status": "approved"
+    },
+    {
+      "id": "14",
+      "sellerId": 15,
+      "name": "Sencor STS 5070SS Electric Toaster for Four Slices",
+      "price": 340,
+      "category": "electronics",
+      "img": "img/products/14.png",
+      "status": "approved"
+    },
+    {
+      "id": "17",
+      "sellerId": 18,
+      "name": "HIKVISION PTZ Camera 4K Outdoor",
+      "price": 185,
+      "category": "electronics",
+      "img": "img/products/17.png",
+      "status": "approved"
+    },
+    {
+      "id": "18",
+      "sellerId": 19,
+      "name": "OPPO Reno11 5G 256GB 12GB",
+      "price": 225,
+      "category": "Mobiles",
+      "img": "img/products/18.png",
+      "status": "approved"
+    },
+    {
+      "id": "19",
+      "sellerId": 20,
+      "name": "VIVAX kettle WH-175L with a capacity of 1.7L",
+      "price": 140,
+      "category": "electronics",
+      "img": "img/products/19.png",
+      "status": "approved"
+    }
+  ],
+  "orders": [
+    {
+      "id": "9efb",
+      "customerId": "50",
+      "address": "alsaadat belbies city",
+      "payment": {
+        "cardNumber": "1212 1232 1111 2222",
+        "expiryDate": "01/25",
+        "cvc": "245"
+      },
+      "items": [
+        {
+          "productName": "Product 15",
+          "quantity": 1,
+          "price": 800
+        }
+      ]
+    },
+    {
+      "id": "c65a",
+      "customerId": "fatma",
+      "address": ",Sharkia, Egypt",
+      "payment": {
+        "cardNumber": "1234 5564 2356 2242",
+        "expiryDate": "02/25",
+        "cvc": "235"
+      },
+      "items": [
+        {
+          "productName": "OPPO Reno11 5G 256GB 12GB",
+          "sellerId": 19,
+          "quantity": 5,
+          "price": 225
+        }
+      ]
+    },
+    {
+      "id": "eb03",
+      "customerId": "mahmoud",
+      "address": "bilbies ,Sharkia, Egypt",
+      "payment": {
+        "cardNumber": "1234 5564 2356 2242",
+        "expiryDate": "02/25",
+        "cvc": "122"
+      },
+      "items": [
+        {
+          "productName": "keyboard",
+          "sellerId": 1,
+          "quantity": 1,
+          "price": "55"
+        }
+      ]
+    },
+    {
+      "id": "a4ad",
+      "customerId": "mahmoud",
+      "address": "alsaadat belbies city",
+      "payment": {
+        "cardNumber": "1234 5564 2356 2242",
+        "expiryDate": "02/25",
+        "cvc": "221"
+      },
+      "items": [
+        {
+          "productName": "keyboard",
+          "sellerId": 1,
+          "quantity": 1,
+          "price": "55"
+        }
+      ]
+    },
+    {
+      "id": "6f8e",
+      "customerId": "mahmoud",
+      "address": "alsaadat belbies city",
+      "payment": {
+        "cardNumber": "1234 5564 2356 2242",
+        "expiryDate": "02/25",
+        "cvc": "225"
+      },
+      "items": [
+        {
+          "productName": "OPPO Reno11 5G 256GB 12GB",
+          "sellerId": 19,
+          "quantity": 1,
+          "price": 225
+        }
+      ]
+    }
+  ]
+}

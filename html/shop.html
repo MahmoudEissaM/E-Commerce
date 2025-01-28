@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Filter</title>
+    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+
+<body>
+    <div class="top-bar">
+        <p>30-day return or refund guarantee.</p>
+        <div class="top-bar-options">
+            <a href="login.html" id="loginBtn" class="login-btn">Login</a>
+            <a href="signup.html" id="signupBtn" class="signup-btn">Sign Up</a>
+            <a href="shop.html" id="logoutBtn" class="logout-btn" style="display: none;">Logout</a>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="../img/logo.png" alt="TechTronix Logo">
+            </a>
+            <nav class="nav">
+                <a href="../index.html">Home</a>
+                <a href="shop.html" class="active">Shop</a>
+                <a href="about.html">About Us</a>
+                <a href="contacts.html">Contact</a>
+
+                <div class="search-container">
+                    <img src="../img/icon/search.png" id="search-icon" alt="Search Icon" />
+                    <input type="text" id="search-bar" placeholder="Search for products..." />
+                    <button id="searchButton">Search</button>
+                </div>
+                <div id="results"></div>
+            </nav>
+
+            <div class="header-options">
+                <a href="#" id="cart-btn" class="cart">
+                    <img src="../img/icon/cart.png" alt="Cart">
+                    <span id="cart-count" class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="filter-container">
+        <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="electronics">Electronics</button>
+        <button class="filter-btn" data-category="laptops">Laptops</button>
+        <button class="filter-btn" data-category="mobiles">Mobiles</button>
+    </div>
+
+    <div id="productContainer" class="product-container"></div>
+
+    <div id="cart-container" class="cart-container">
+        <h3>Shopping Cart</h3>
+        <button id="close-cart" class="close-cart">Close</button>
+        <ul id="cart-items"></ul>
+        <a href="checkout.html"><button id="checkout-btn">Checkout</button></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/shop.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="../css/checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+    <main>
+        <section id="cart-section">
+            <h2>Your Cart</h2>
+            <div id="cart-container">
+            </div>
+        </section>
+
+        <section id="order-section">
+            <h2>Place Your Order</h2>
+            <form id="order-form">
+                <label for="customer-id">Customer ID:</label>
+                <input type="text" id="customer-id" name="customer-id" placeholder="Enter your Customer ID" required>
+
+                <label for="address">Shipping Address:</label>
+                <textarea id="address" name="address" placeholder="Enter your shipping address" required></textarea>
+
+                <div class="card-info">
+                    <label for="card-number">Card Number:</label>
+                    <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9101 1121"
+                        maxlength="19" required>
+
+                    <label for="expiry-date">Expiry Date:</label>
+                    <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" maxlength="5" required>
+
+                    <label for="cvc">CVC Code:</label>
+                    <input type="text" id="cvc" name="cvc" placeholder="123" maxlength="3" required>
+                </div>
+
+                <div class="supported-cards">
+                    <p>We accept:</p>
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                    <i class="fa-brands fa-cc-amex"></i>
+                </div>
+
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 Your Store. All rights reserved.</p>
+    </footer>
+    <script src="../js/checkout.js"></script>
+</body>
+
+</html>

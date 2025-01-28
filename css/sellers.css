@@ -1,0 +1,214 @@
+* {
+
+    font-family: 'Inter', sans-serif;
+}
+
+
+.nav {
+    padding-left: 250px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+.nav a:hover,
+.nav a.active {
+    color: #e53637;
+}
+
+.nav p {
+    border-radius: 80%;
+    padding: 6px;
+    margin-left: 40px;
+    background-color: #28a745;
+    font-weight: bold;
+    color: #fff;
+
+
+}
+
+/* =========================== */
+
+
+.container {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-left: 10%;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+
+
+
+
+
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+
+/* ================================== */
+
+/* Styling for product cards */
+
+.product-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.product-info {
+    flex-grow: 1;
+}
+
+.product-info h4 {
+    font-size: 14px;
+    color: #333;
+    margin: 0 0 5px;
+}
+
+.product-info p {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+
+/* ============================================= */
+/* تنسيق التنبيه */
+.alert {
+    display: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.alert button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+
+
+/* ============================================ */
+
+/* تنسيق واجهة التعديل */
+#editProductModal {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #000;
+    z-index: 1000;
+}
+
+
+
+
+
+
+#ordersList {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: none;
+
+}
+
+.order-card {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    cursor: pointer;
+}

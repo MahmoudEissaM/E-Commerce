@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTronix</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+
+<body>
+    <div class="top-bar">
+        <p>30-day return or refund guarantee.</p>
+        <div class="top-bar-options">
+            <a href="html/login.html" id="loginBtn" class="login-btn">Login</a>
+            <a href="html/signup.html" id="signupBtn" class="signup-btn">Sign Up</a>
+            <a href="index.html" id="logoutBtn" class="logout-btn" style="display: none;">Logout</a>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="TechTronix Logo">
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="html/shop.html">Shop</a>
+                <a href="html/about.html">About Us</a>
+                <a href="html/contacts.html">Contact</a>
+
+                <div class="search-container">
+                    <img src="img/icon/search.png" id="search-icon" alt="Search Icon" />
+                    <input type="text" id="search-bar" placeholder="Search for products..." />
+                    <button id="searchButton">Search</button>
+                </div>
+
+            </nav>
+
+            <div class="header-options">
+                <a href="#" id="cart-btn" class="cart">
+                    <img src="img/icon/cart.png" alt="Cart">
+                    <span id="cart-count" class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================================================================== -->
+
+
+    <div class="best-offers">
+        <h2>Best Offers</h2>
+        <div class="offers-container">
+            <div class="offer">
+                <a href="#"><img src="img/banner_home1.png" alt="Data Storage" class="offer-img"></a>
+            </div>
+            <div class="offer">
+                <a href="#"><img src="img/banner_home2.png" alt="Laptops" class="offer-img"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================================================================== -->
+    <div class="search-results">
+
+        <div class="product-container" id="searchResultsContainer">
+
+        </div>
+    </div>
+
+    <!-- ==================================================================== -->
+
+    <section id="mobiles">
+        <h2>Mobiles</h2>
+        <div class="product-container" id="mobilesContainer">
+        </div>
+    </section>
+
+    <div class="best-Sales">
+        <div class="Sales-container">
+            <div class="Sales">
+                <a href="#"><img src="img/banner_box4.jpg" alt="Data Storage" class="Sales-img"></a>
+            </div>
+            <div class="Sales">
+                <a href="#"><img src="img//banner_box5.jpg" alt="Laptops" class="Sales-img"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================================================================== -->
+
+    <div class="products">
+        <section id="electronics">
+            <h2>Electronics</h2>
+            <div class="product-container" id="electronicsContainer">
+            </div>
+        </section>
+
+
+        <section id="laptops">
+            <h2>Laptops</h2>
+            <div class="product-container" id="laptopsContainer">
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================================================================== -->
+
+
+    <div id="cart-container" class="cart-container">
+        <h3>Shopping Cart</h3>
+        <button id="close-cart" class="close-cart">Close</button>
+        <ul id="cart-items"></ul>
+        <a href="html/checkout.html"><button id="checkout-btn">Checkout</button></a>
+    </div>
+    <!-- ==================================================================== -->
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <img src="img/footer-logo.png" alt="TechTronix Logo">
+                </div>
+                <p>The customer is at the heart of our unique business model, which includes design.</p>
+                <div class="payment-icons">
+                    <img src="img/icon/Paypal-Logo-PNG.png">
+                    <img src="img/icon/master.png">
+                    <img src="img/icon/visa.png">
+                    <img src="img/icon/master1.png">
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>SHOPPING</h3>
+                <ul>
+                    <li><a href="#">Accessories Store</a></li>
+                    <li><a href="#">Popular Cables</a></li>
+                    <li><a href="#">Printers</a></li>
+                    <li><a href="#">Sale</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>SUPPORT</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Payment Methods</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Return & Exchanges</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>NEWSLETTER</h3>
+                <p>Be the first to know about new arrivals, look books, sales & promos!</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email">
+                    <button type="submit">✉️</button>
+                </form>
+            </div>
+        </div>
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
