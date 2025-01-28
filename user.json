@@ -63,6 +63,16 @@
       "username": "22222222",
       "password": "1234",
       "role": "seller"
+    },
+    {
+      "id": "6ea2",
+      "firstName": "ziad",
+      "lastName": "ahmed",
+      "birthDate": "2015-12-05",
+      "email": "ziad@iti.com",
+      "username": "ziad",
+      "password": "1234",
+      "role": "customer"
     }
   ],
   "products": [
