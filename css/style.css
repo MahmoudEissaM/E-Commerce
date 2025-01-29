@@ -584,19 +584,35 @@ button:hover {
 
 @media (max-width: 768px) {
     .nav {
-        flex-direction: column;
+        max-height: 20px;
         align-items: center;
-        gap: 15px;
-        padding: 10px 0;
+        gap: 5px;
+
     }
 
     .search-container {
-        width: 100%;
+        display: none;
+    }
+
+    .search-container {
+        width: 30%;
         margin-top: 15px;
     }
 
     .product-container {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cart {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 600) {
+
+
+    .cart {
+        margin-top: 500px;
     }
 }
 
@@ -605,6 +621,10 @@ button:hover {
         flex-direction: column;
         align-items: center;
         gap: 12px;
+    }
+
+    .search-container {
+        display: none;
     }
 
     .logo img {
