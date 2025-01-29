@@ -1,9 +1,10 @@
 {
   "name": "ecommerce-website-v6",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server --watch user.json --port $PORT",
+    "start": "node server.js",
+    "dev": "json-server --watch user.json --port 5000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
