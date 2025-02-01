@@ -640,3 +640,101 @@ button:hover {
         grid-template-columns: 1fr;
     }
 }
+
+
+/* Variables for Light and Dark Modes */
+:root {
+    --bg-color: #f9f9f9;
+    --text-color: #333;
+    --primary-color: #e74c3c;
+    --secondary-bg: #fff;
+}
+
+[data-theme="dark"] {
+    --bg-color: #24262b;
+    --text-color: #fff;
+    --primary-color: #ff6f61;
+    --secondary-bg: #1e1e1e;
+}
+
+/* Apply variables to all elements */
+
+/* Variables for Light and Dark Modes */
+:root {
+    --bg-color: #f9f9f9;
+    --text-color: #333;
+    --primary-color: #e74c3c;
+    --secondary-bg: #fff;
+}
+
+[data-theme="dark"] {
+    --bg-color: #24262b;
+    --text-color: #fff;
+    --primary-color: #ff6f61;
+    --secondary-bg: #1e1e1e;
+}
+
+/* Apply variables to all elements */
+body {
+    font-size: 16px;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--secondary-bg);
+}
+
+.nav a {
+    color: var(--text-color);
+}
+
+.nav a:hover,
+.nav a.active {
+    color: var(--primary-color);
+}
+
+.product-card {
+    background-color: var(--secondary-bg);
+    border-color: #444;
+
+}
+
+.product-info h4 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    color: #000000;
+    color: var(--text-color);
+
+
+}
+
+.best-offers {
+    background-color: var(--secondary-bg);
+    border: none;
+}
+
+.best-offers h2 {
+    color: var(--text-color);
+
+}
+
+.footer {
+    background-color: #18191c;
+    color: var(--text-color);
+}
+
+.dark-mode-btn {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode-btn:hover {
+    background-color: #c0392b;
+}

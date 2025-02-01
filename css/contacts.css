@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 body {
     font-size: 16px;
     color: #333;
@@ -439,4 +440,99 @@ header {
     border-radius: 4px;
     margin-right: 10px;
     font-size: 14px;
+}
+
+
+
+:root {
+    --bg-color: #f9f9f9;
+    --text-color: #24262b;
+    --primary-color: #e74c3c;
+    --secondary-bg: #fff;
+}
+
+[data-theme="dark"] {
+    --bg-colord: #1e1e1e;
+    --text-colord: #fff;
+    --primary-colord: #ff6f61;
+    --secondary-bgd: #24262b;
+}
+
+body {
+    font-size: 16px;
+    color: var(--text-colord);
+    background-color: var(--bg-colord);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--bg-colord);
+}
+
+.nav a {
+    color: var(--text-colord);
+}
+
+.nav a:hover,
+.nav a.active {
+    color: var(--primary-colord);
+}
+
+.contact-header h2 {
+    color: white;
+}
+
+.contact-header p {
+    color: white;
+}
+
+.contact-form {
+    background-color: var(--bg-colord);
+
+}
+
+.contact-form label {
+    color: white;
+}
+
+.contact-info {
+    background-color: var(--bg-colord);
+
+}
+
+.contact-form label {
+    color: white;
+}
+
+.dark-mode-btn {
+    background-color: var(--primary-colord);
+    color: var(--text-color);
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode-btn:hover {
+    background-color: #c0392b;
+}
+
+.contact {
+    background-color: var(--secondary-bgd);
+
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .logo {
+    filter: brightness(0.8); // لو محتاج تعدل إضاءة اللوجو
+}
+
+#logo {
+    display: block !important;
+
 }

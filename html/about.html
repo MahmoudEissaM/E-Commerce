@@ -8,6 +8,8 @@
 
 
     <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 
 <body>
@@ -20,9 +22,12 @@
     </div>
 
     <header>
+        <button id="darkModeToggle" class="dark-mode-btn">
+            <i class="fas fa-moon"></i>
+        </button>
         <div class="container">
-            <a href="#" class="logo">
-                <img src="../img/logo.png" alt="TechTronix Logo">
+            <a href="../index.html" class="logo">
+                <img src="../img/logo.png" alt="TechTronix Logo" id="logo">
             </a>
             <nav class="nav">
                 <a href="../index.html">Home</a>
@@ -141,6 +146,7 @@
 
     </footer>
 
+    <script src="../js/darkMode.js"></script>
 </body>
 
 </html>
