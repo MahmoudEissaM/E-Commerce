@@ -11,7 +11,7 @@ Supports multiple user roles: **👑 Admin, 🛍️ Customer, 🏪 Seller, and �
 
 | Dark Mode | Light Mode  |
 |------------|-----------|
-| <img src="img/HomePageDark.JPG" width="400"> | <img src="img/HomePageLight.JPG" width="400"> |
+| <img src="img/HHomePageDark.JPG" width="400"> | <img src="img/HHomePageLight.JPG" width="400"> |
 
 
 ### 📦 Product Page  
