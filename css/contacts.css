@@ -529,7 +529,7 @@ body.dark-mode {
 }
 
 .dark-mode .logo {
-    filter: brightness(0.8); // لو محتاج تعدل إضاءة اللوجو
+    filter: brightness(0.8);
 }
 
 #logo {
